@@ -1,5 +1,11 @@
 # Beszel-Weight
 
+<details> 
+    <summary>Demo</summary>
+![demo1](https://github.com/RealTong/beszel-widgets/blob/main/demos/demo1.png?raw=true)
+![demo2](https://github.com/RealTong/beszel-widgets/blob/main/demos/demo2.png?raw=true)
+</details>
+
 ## 介绍
 一个用于监控 [Beszel-Hub](https://beszel.dev/zh/) 服务器的 iOS 小组件。
 

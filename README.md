@@ -2,8 +2,8 @@
 
 <details> 
     <summary>Demo</summary>
-![demo1](./demos/demo1.png)
-![demo2](./demos/demo2.png)
+![demo1](https://github.com/RealTong/beszel-widgets/blob/main/demos/demo1.png?raw=true)
+![demo2](https://github.com/RealTong/beszel-widgets/blob/main/demos/demo2.png?raw=true)
 </details>
 
 ## Introduction
