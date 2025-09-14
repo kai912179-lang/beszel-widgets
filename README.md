@@ -50,7 +50,3 @@ Long press the widget, edit the widget, and enter the following JSON in the Para
 
 - `widget.tsx` and `widget1.tsx` have different UI styles. Choose as needed.
 - For custom UI, modify the corresponding tsx file.
-
----
-
-For questions, contact RealTONG.
