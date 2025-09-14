@@ -56,7 +56,7 @@ export interface ServerStatus {
   diskUsage?: string // 磁盘使用率
   diskPercent?: number // 磁盘使用百分比
   temperature?: number // 温度
-  cpuPercent?: number // CPU使用率
+  cpuPercent?: number // CPU 使用率
   readSpeed?: string // 读取速度
   writeSpeed?: string // 写入速度
 }
@@ -241,24 +241,6 @@ function WidgetView() {
       />
     </HStack>
 
-    {/* Uptime 信息 */}
-    <HStack alignment="center">
-      <Text 
-        font="caption" 
-        foregroundStyle="secondaryLabel"
-      >
-        运行时间
-      </Text>
-      <Spacer />
-      <Text 
-        font="caption" 
-        fontWeight="medium"
-        foregroundStyle="systemGreen"
-      >
-        {serverData?.uptime || '--'}
-      </Text>
-    </HStack>
-
     {/* 圆形进度条区域 */}
     <HStack spacing={16} alignment="center">
       {/* 负载进度条 */}
@@ -359,4 +341,4 @@ setTimeout(() => {
     policy: "after",
     date: new Date(Date.now() + 1000 * 5) // 5 秒后刷新
   })
-}, 2000) // 等待2秒
+}, 2000) // 等待 2 秒
